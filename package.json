@@ -5,11 +5,11 @@
   "main": "index.js",
   "gulp": {
     "src": {
-      "js": "src/js/",
+      "js": "dist/js/",
       "scss": "src/sass/",
       "images": "images/",
       "html": "/",
-      "css": "css/"
+      "css": "dist/css/"
     },
     "selectors": {
       "all": "*",

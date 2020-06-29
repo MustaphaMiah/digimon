@@ -38,7 +38,7 @@ const serve = () => {
   return nodemon({
     script: config.main.server,
     ignore: [
-      `${config.src.js}${config.selectors.js}`,
+      // `${config.src.js}${config.selectors.js}`,
       `${config.src.scss}${config.selectors.scss}`,
     ],
     env: { NODE_ENV: "development" },
